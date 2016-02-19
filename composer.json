@@ -1,0 +1,32 @@
+{
+    "name": "jirro/orm",
+    "type": "library",
+    "description": "",
+    "keywords": [],
+    "homepage": "http://github.com/jirro",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rendy Eko Prastiyo",
+            "email": "rendyekoprastiyo@gmail.com",
+            "homepage": "http://github.com/rendyep",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "jirro/dbal": "~1.0@dev",
+        "doctrine/orm": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jirro\\Component\\ORM\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
